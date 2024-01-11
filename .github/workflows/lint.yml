@@ -35,7 +35,7 @@ jobs:
           poetry config virtualenvs.create false
           poetry install
 
-      - uses: wearerequired/lint-action@v1
+      - uses: wearerequired/lint-action@v2
         with:
           auto_fix: true
           flake8: true
